@@ -101,15 +101,20 @@ Route::get('/open-account', function () {
     return view('open-account');
 });
 
+Route::get('/net-capital-report', [App\Http\Controllers\ReportController::class, 'net_capital_report'] )->middleware('auth');
 
+Route::get('/financial-report', [App\Http\Controllers\ReportController::class, 'financial_report'] )->middleware('auth');
 
-Route::get('/financial-report', [App\Http\Controllers\ReportController::class, 'financial_report'] );
-
-Route::get('/financial-statement', [App\Http\Controllers\ReportController::class, 'financial_statement'] );
+Route::get('/logout', [App\Http\Controllers\ReportController::class, 'logout'] );
 
 Route::get('/download-financial/{name}', [App\Http\Controllers\ReportController::class, 'financial_fetch'] );
 
-Route::post('/financial-report/uploaded', [App\Http\Controllers\ReportController::class, 'financial_upload'] );
+Route::get('/download-net-capital/{name}', [App\Http\Controllers\ReportController::class, 'capital_fetch'] );
+
+Route::post('/financial-report/uploaded', [App\Http\Controllers\ReportController::class, 'financial_upload'] )->middleware('auth');
+
+Route::post('/net-capital-report/uploaded', [App\Http\Controllers\ReportController::class, 'net_capital_upload'] )->middleware('auth');
 
 Route::get('/net-capital-balance', [App\Http\Controllers\ReportController::class, 'net_capital_balance'] );
 
+Route::get('/financial-statement', [App\Http\Controllers\ReportController::class, 'financial_statement'] );

@@ -1,7 +1,7 @@
 <html lang="en-US" style="--global-ribbon-height:0px;">
 
 <head>
-    <title data-react-html="true">Financial Statement</title>
+    <title data-react-html="true">Net Capital Balance</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta data-react-html="true" name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
@@ -294,14 +294,14 @@
                                  <div class="Polaris-Navigation__PrimaryNavigation_1i4zc Polaris-Scrollable_1ed9o Polaris-Scrollable--vertical_uiuuj" data-polaris-scrollable="true">
                                     <ul class="Polaris-Navigation__Section_1b1h1">
                                         <li class="Polaris-Navigation__ListItem_wxd2m">
-                                            <div class="Polaris-Navigation__ItemWrapper_1kbav"><a data-polaris-unstyled="true" class="Polaris-Navigation__Item_yiyol Polaris-Navigation__Item--selected_13f25 Polaris-Navigation--subNavigationActive_e2t9x" tabindex="0" aria-disabled="false" href="index.html">
+                                            <div class="Polaris-Navigation__ItemWrapper_1kbav"><a data-polaris-unstyled="true" class="Polaris-Navigation__Item_yiyol Polaris-Navigation--subNavigationActive_e2t9x" tabindex="0" aria-disabled="false" href="/financial-report">
                                                     <div class="Polaris-Navigation__Icon_yj27d"><span class="Polaris-Icon_yj27d Polaris-Icon--newDesignLanguage_1rik8"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg_375hu" focusable="false" aria-hidden="true">
                                                                 <path d="M18 7.261V17.5c0 .841-.672 1.5-1.5 1.5h-2c-.828 0-1.5-.659-1.5-1.5V13H7v4.477C7 18.318 6.328 19 5.5 19h-2c-.828 0-1.5-.682-1.5-1.523V7.261a1.5 1.5 0 0 1 .615-1.21l6.59-4.82a1.481 1.481 0 0 1 1.59 0l6.59 4.82A1.5 1.5 0 0 1 18 7.26z"></path>
                                                             </svg></span></div><span class="Polaris-Navigation__Text_yj3uv">Financial Statement</span>
                                                 </a></div>
                                         </li>
                                         <li class="Polaris-Navigation__ListItem_wxd2m">
-                                            <div class="Polaris-Navigation__ItemWrapper_1kbav"><a data-polaris-unstyled="true" class="Polaris-Navigation__Item_yiyol" tabindex="0" aria-disabled="false" href="/net-capital-report">
+                                            <div class="Polaris-Navigation__ItemWrapper_1kbav"><a data-polaris-unstyled="true" class="Polaris-Navigation__Item_yiyol Polaris-Navigation__Item--selected_13f25" tabindex="0" aria-disabled="false" href="/net-capital-report">
                                                     <div class="Polaris-Navigation__Icon_yj27d"><span class="Polaris-Icon_yj27d Polaris-Icon--newDesignLanguage_1rik8"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg_375hu" focusable="false" aria-hidden="true">
                                                                 <path d="M11 1a1 1 0 1 0-2 0v7.586L7.707 7.293a1 1 0 0 0-1.414 1.414l3 3a1 1 0 0 0 1.414 0l3-3a1 1 0 0 0-1.414-1.414L11 8.586V1z"></path>
                                                                 <path d="M3 14V3h4V1H2.5A1.5 1.5 0 0 0 1 2.5v15A1.5 1.5 0 0 0 2.5 19h15a1.5 1.5 0 0 0 1.5-1.5v-15A1.5 1.5 0 0 0 17.5 1H13v2h4v11h-3.5c-.775 0-1.388.662-1.926 1.244l-.11.12A1.994 1.994 0 0 1 10 16a1.994 1.994 0 0 1-1.463-.637l-.111-.12C7.888 14.664 7.275 14 6.5 14H3z"></path>
@@ -330,7 +330,7 @@
                                             <div>
                                                 <div class="Polaris-Header-Title__TitleAndSubtitleWrapper_40sxf">
                                                     <div class="Polaris-Header-Title_2qj8j">
-                                                        <h1 class="Polaris-Header-Title--newDesignLanguageTitle_1wh8d">Financial Statement</h1>
+                                                        <h1 class="Polaris-Header-Title--newDesignLanguageTitle_1wh8d">Net Capital Balance</h1>
                                                     </div>
                                                 </div>
                                             </div>
@@ -338,7 +338,7 @@
                                     </div>
                                 </div>
                                 <div class="Polaris-Page__Content_xd1mk">
-                                    <form action="/financial-report/uploaded" method="POST" enctype="multipart/form-data">
+                                    <form action="/net-capital-report/uploaded" method="POST" enctype="multipart/form-data">
                                         @csrf
                                         <div class="Polaris-Layout_sl20u Polaris-Layout--newDesignLanguage_1rik8">
                                             <div class="Polaris-Layout__Section_1b1h1">
@@ -366,7 +366,7 @@
                                                                     </div>
                                                                     <div class="Polaris-Connected_wopc9 Polaris-Connected--newDesignLanguage_1rik8">
                                                                         <div class="Polaris-Connected__Item_yiyol Polaris-Connected__Item--primary_rmh5m">
-                                                                            <div class="Polaris-TextField_1spwi Polaris-TextField--newDesignLanguage_1rik8"><input name="name" id="collectionTitleTextField" placeholder="e.g. Financial Statement - June 2019" class="Polaris-TextField__Input_30ock" aria-labelledby="collectionTitleTextFieldLabel" aria-invalid="false" aria-multiline="false" value="">
+                                                                            <div class="Polaris-TextField_1spwi Polaris-TextField--newDesignLanguage_1rik8"><input name="name" id="collectionTitleTextField" placeholder="e.g. NCB - June 2019" class="Polaris-TextField__Input_30ock" aria-labelledby="collectionTitleTextFieldLabel" aria-invalid="false" aria-multiline="false" value="">
                                                                                 <div class="Polaris-TextField__Backdrop_1x2i2"></div>
                                                                             </div>
                                                                         </div>
@@ -884,7 +884,7 @@
                                 <li class="Polaris-ActionList__Section_1b1h1">
                                     <div class="Polaris-ActionList__Section--withoutTitle_1vpsz">
                                         <ul class="Polaris-ActionList__Actions_17m67 Polaris-ActionList--newDesignLanguage_1rik8">
-                                            <li><a target="_blank" rel="noopener noreferrer" data-polaris-unstyled="true" class="Polaris-ActionList__Item_yiyol Polaris-ActionList--newDesignLanguage_1rik8">
+                                            <li><a target="_blank"  rel="noopener noreferrer" data-polaris-unstyled="true" class="Polaris-ActionList__Item_yiyol Polaris-ActionList--newDesignLanguage_1rik8">
                                                     <div class="Polaris-ActionList__Content_xd1mk">
                                                         <div class="Polaris-ActionList__Prefix_10fbz Polaris-ActionList--newDesignLanguage_1rik8"><span class="Polaris-Icon_yj27d Polaris-Icon--newDesignLanguage_1rik8"><svg viewBox="0 0 20 20" class="Polaris-Icon__Svg_375hu" focusable="false" aria-hidden="true">
                                                                     <path d="M10 15c-1.631 0-3.064-.792-3.978-2 .914-1.208 2.347-2 3.978-2 1.631 0 3.064.792 3.978 2-.914 1.208-2.347 2-3.978 2zm0-10c1.104 0 2 .897 2 2s-.896 2-2 2-2-.897-2-2 .896-2 2-2zm0-3c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8z"></path>

@@ -15,15 +15,11 @@
         <div class="row">
             <div class="col-lg-12">
 
-                <h3>2019</h3>
-                <p class="lead"><a target="_blank" href="/downloads/NCB - June 2019.pdf">NCB - June 2019</a></p>
-
-                <h3>2018</h3>
-                <p class="lead"><a target="_blank" href="/downloads/NCB - June 2018.pdf">NCB - June 2018</a></p>
-
-                <h3>2017</h3>
-                <p class="lead"><a target="_blank" href="/downloads/NCB - June 2017.pdf">NCB - June 2017</a></p>
-
+                @foreach ($reports as $report)
+                
+                <h3>{{$report->year}}</h3>
+        <p class="lead"><a target="_blank" href="/download-net-capital/{{$report->report}}">{{$report->name}}</a></p>
+                @endforeach
     
             </div>
         </div>
