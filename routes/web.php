@@ -14,7 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/company-profile', function () {
+    return view('company-profile');
+});
+
+Route::get('/vision-mission', function () {
+    return view('vision-mission');
+});
+
+Route::get('/board-of-directors', function () {
+    return view('board-of-directors');
 });
 
 Route::get('/financial-report', [App\Http\Controllers\ReportController::class, 'financial_report'] );

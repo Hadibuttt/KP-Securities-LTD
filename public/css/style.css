@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.info {
+    background: #F2F2F2;
+    border: #DDDDDD 1px solid;
+    padding-left: 40px;    
+    padding-right: 40px;
+}
+
+.info span
+{
+    font-size: 12px;
+}
+.info .row .col {
+    padding: 20px;
+}
+
+ul.topleft-info li {
+    display: inline;
+    margin: 0 20px 0 0;
+    padding: 0;
+    font-weight: 600;
+    float: left;
+    height: 40px;
+    overflow: hidden;
+
+}
+
+div.he-text {
+    float: left;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.43;
+    padding-left: 10px;
+    color: #757575;
+}
+
+ul.topleft-info {
+    list-style: none;
+    margin: 10px 0 0;
+    padding-left: 0;
+    float: left;
+}
+
+div.he-text a {
+
+    font-size: 12px;
+    color: #104C8D;
+    line-height: 1 rem;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+
+}
+
+.fa-phone:before {
+    content: "\f095";
+}
+
+
+#active {
+    color: #104C8D;
+}
+
+.nav-item {
+
+    padding-left: 0px;
+    font-size: 15px;
+}
+.nav-link
+{
+    color: #104C8D;
+    font-size: 15px;
+}
+
+.dropdown .dropdown-menu a {
+    font-size: 11px;
+}
+.head-buttons
+{
+    margin-left: -30px;
+}
+
+.dropdown .dropdown-menu {
+    background: #F2F2F2;
+}
+
+.contact .head {
+    font-size: 12px;
+    margin: 0;
+    color: #6D6D6D;
+    padding: 0;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.contact .head-about {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.rate-check {
+    background: #EFEFEF;
+    border-top: #ABABAB 1px solid;
+}
+
+.list-price {
+    display: inline;
+    height: 100%;
+    ;
+}
+
+.list-update {
+    text-align: center;
+    font-size: 11px;
+    font-weight: 300;
+    color: #656565;
+}
+
+/* OUTER CONTAINER */
+.tcontainer {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+    /* Hide scroll bar */
+}
+
+/* MIDDLE CONTAINER */
+.ticker-wrap {
+    width: 100%;
+    padding-left: 100%;
+    background-color: #eee;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-530%, 0, 0);
+    }
+}
+
+.ticker-move {
+    /* Basically move items from right side of screen to left in infinite loop */
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: ticker;
+    animation-duration: 15s;
+}
+
+.ticker-move:hover {
+    animation-play-state: paused;
+    /* Pause scroll on mouse hover */
+}
+
+/* ITEMS */
+#company {
+    display: inline-block;
+    /* Lay items in a horizontal line */
+    padding: 0;
+    font-size: 16px;
+    margin-left: 30px;
+    font-weight: 400;
+
+}
+
+.symbol {
+    color: #104C8D;
+    font-size: 16px;
+}
+
+.positive {
+    color: #2CAD52;
+    font-size: 16px;
+}
+
+.head-buttons {
+    float: right;
+    margin-top: 10px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #104C8D;
+    border-color: #104C8D;
+}
+
+.negative {
+    color: #EE3F3A;
+    font-size: 16px;
+}
+
+.text-box {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.head-one {
+    font-weight: 800;
+    font-size: 30px;
+    color: #666666;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.para {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/*--tabs and table*/
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+    background: #104C8D;
+    border-radius: 5px ;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #104C8D;
+  color: white;
+  transform: rotateY(180deg);
+}
+*,
+*: before,
+*:after {
+    -webkit-box-sizing: border-box !important;
+    -moz-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*page styling*/
+.table-striped th {
+    border: white 1px solid;
+    color: white;
+    background: #104C8D;
+    border-bottom: none;
+
+}
+
+.table td {
+    border: none;
+    width: 100%;
+}
+
+.table-striped {
+    border-left: #DEE2E6 1px solid;
+    border-right: #DEE2E6 1px solid;
+    border-bottom: #DEE2E6 1px solid;
+    padding: 10px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #747474;
+
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td,
+.table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: white;
+}
+
+.table-striped > tbody > tr:nth-child(2n) > td,
+.table-striped > tbody > tr:nth-child(2n) > th {
+    background-color: #E7EDF3;
+}
+
+/*--tabs and table*/
+
+/*--bottom bar*/
+.widget {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6em;
+    color: #656565;
+    padding: 10px;
+    font-weight: 200;
+    margin-top: 40px;
+}
+
+.widget h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #666666;
+    font-weight: 600;
+
+}
+
+.widget p {
+    font-weight: 300;
+}
+
+.widget address {
+    font-weight: 300;
+}
+
+.widget ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.widget ul.link-list li a {
+    font-weight: 300;
+    text-decoration: none;
+    color: #A1A1A1;
+}
+
+.widget img {
+    margin-bottom: 30px;
+}
+
+/*--bottom bar*/
+/*--subfooter*/
+#sub-footer {
+    text-shadow: none;
+    padding: 0;
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+    background: #f7f7f7;
+}
+
+.copyright {
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #656565
+}
+
+.copyright p {
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin-bottom: 0;
+}
+
+.copyright a {
+
+    font-size: 14px;
+    font-weight: 300;
+    color: #676767;
+}
+
+#sub-footer {
+    margin: 0 0 20px 0;
+}
+
+#sub-footer ul.social-network {
+    float: right;
+}
+
+ul.social-network {
+    list-style: none;
+    margin: 0;
+}
+
+ul.social-network {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+ul.social-network li i {
+    color: #666666;
+    font-size: 16px;
+}
+
+/*--subfooter*/
+
+
+
+/*--company profile*/
+
+#inner-headline {
+    background: #104c8d;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #fefefe;
+}
+
+#inner-headline h2 {
+    color: #fff;
+    margin-top: 28px !important;
+    margin-bottom: 10px !important;
+    font-weight: 700 !important;
+}
+
+#content {
+    position: relative;
+    background: #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #737373;
+    padding: 60px 0 40px 0;
+}
+
+/*--company profile*/
+/*--Vision & Mission*/
+#content h3 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #666;
+    font-weight: 700;
+
+
+}
+
+#content blockquote {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    padding: 10px 20px;
+    padding-left: 0;
+    margin: 0 0 20px;
+    color: #a2a2a2;
+    line-height: 1.6em;
+
+    border: none;
+}
+#content a
+{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #104C8D;
+}
+#content a:hover
+{
+    text-decoration: underline;
+}
+
+/*--Vision & Mission*/
+/*--Contact Us*/
+ #sendmessage
+{
+    display: none;
+}
+.btn-theme
+{
+    background: #104C8D;
+    color: white;
+    font-weight: 500;
+}
+.contact h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 1.1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+/*--Contact Us*/
