@@ -67,9 +67,9 @@
                             <a href="/company-profile" class="dropdown-item">Company Profile</a>
                             <a href="/vision-mission" class="dropdown-item">Vision & Mission</a>
                             <a href="/board-of-directors" class="dropdown-item">Board of Directors</a>
-                            <a href="mngteam.html" class="dropdown-item">Management Team</a>
-                            <a href="reginfo.htm/board-of-directorsl" class="dropdown-item">Regulatory Information</a>
-                            <a href="career.html" class="dropdown-item">Careers</a>
+                            <a href="/managment-team" class="dropdown-item">Management Team</a>
+                            <a href="/regulatory-information" class="dropdown-item">Regulatory Information</a>
+                            <a href="/careers" class="dropdown-item">Careers</a>
                         </div>
                     </div>
 

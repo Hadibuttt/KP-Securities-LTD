@@ -29,6 +29,19 @@ Route::get('/board-of-directors', function () {
     return view('board-of-directors');
 });
 
+Route::get('/managment-team', function () {
+    return view('managment-team');
+});
+
+Route::get('/regulatory-information', function () {
+    return view('regulatory-information');
+});
+
+Route::get('/careers', function () {
+    return view('careers');
+});
+
+
 Route::get('/financial-report', [App\Http\Controllers\ReportController::class, 'financial_report'] );
 
 Route::get('/financial-statement', [App\Http\Controllers\ReportController::class, 'financial_statement'] );
