@@ -58,7 +58,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.shopify.com/shopifycloud/web/assets/v1/latest/AppBridgeResourcePicker~MobileCompatibleCollectionShow~automaticdiscountdetails~collectiondetails~co~77274e6d-7d68c96183c416cafc3d380fc948c38fa6c92d7a65380cbd96d00bbbf9b51b97.css">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.shopify.com/shopifycloud/web/assets/v1/latest/collectiondetails-71584bbfe4dd1124eef8d617852e1b6a92060e0da88c48aeef2d8d5dd010deb8.css">
-
+    
 </head>
 
 <body class="newDesignLanguage" style="background-color: rgb(246, 246, 247); color: rgb(32, 34, 35);">
@@ -352,7 +352,7 @@
                                                                     </div>
                                                                     <div class="Polaris-Connected_wopc9 Polaris-Connected--newDesignLanguage_1rik8">
                                                                         <div class="Polaris-Connected__Item_yiyol Polaris-Connected__Item--primary_rmh5m">
-                                                                            <div class="Polaris-TextField_1spwi Polaris-TextField--newDesignLanguage_1rik8"><input name="year" id="collectionTitleTextField" placeholder="e.g.2019" class="Polaris-TextField__Input_30ock" aria-labelledby="collectionTitleTextFieldLabel" aria-invalid="false" aria-multiline="false" value="">
+                                                                            <div class="Polaris-TextField_1spwi Polaris-TextField--newDesignLanguage_1rik8"><input name="year" required="" id="collectionTitleTextField" placeholder="e.g.2019" class="Polaris-TextField__Input_30ock" aria-labelledby="collectionTitleTextFieldLabel" aria-invalid="false" aria-multiline="false" value="">
                                                                                 <div class="Polaris-TextField__Backdrop_1x2i2"></div>
                                                                             </div>
                                                                         </div>
@@ -366,13 +366,23 @@
                                                                     </div>
                                                                     <div class="Polaris-Connected_wopc9 Polaris-Connected--newDesignLanguage_1rik8">
                                                                         <div class="Polaris-Connected__Item_yiyol Polaris-Connected__Item--primary_rmh5m">
-                                                                            <div class="Polaris-TextField_1spwi Polaris-TextField--newDesignLanguage_1rik8"><input name="name" id="collectionTitleTextField" placeholder="e.g. Financial Statement - June 2019" class="Polaris-TextField__Input_30ock" aria-labelledby="collectionTitleTextFieldLabel" aria-invalid="false" aria-multiline="false" value="">
+                                                                            <div class="Polaris-TextField_1spwi Polaris-TextField--newDesignLanguage_1rik8"><input name="name" id="collectionTitleTextField" required="" placeholder="e.g. Financial Statement - June 2019" class="Polaris-TextField__Input_30ock" aria-labelledby="collectionTitleTextFieldLabel" aria-invalid="false" aria-multiline="false" value="">
                                                                                 <div class="Polaris-TextField__Backdrop_1x2i2"></div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
+
+                                                                    <div class="form-group">
+                                                                        @error('report')
+                                                                            <span class="invalid-feedback">
+                                                                                <strong>{{ $message }}</strong>
+                                                                            </span>
+                                                                        @enderror
+                                                                    </div>
                                                                 </div>
                                                             </div>
+
+                                                            
                                                             
                                                         </div>
                                                     </div>

@@ -352,7 +352,7 @@
                                                                     </div>
                                                                     <div class="Polaris-Connected_wopc9 Polaris-Connected--newDesignLanguage_1rik8">
                                                                         <div class="Polaris-Connected__Item_yiyol Polaris-Connected__Item--primary_rmh5m">
-                                                                            <div class="Polaris-TextField_1spwi Polaris-TextField--newDesignLanguage_1rik8"><input name="year" id="collectionTitleTextField" placeholder="e.g.2019" class="Polaris-TextField__Input_30ock" aria-labelledby="collectionTitleTextFieldLabel" aria-invalid="false" aria-multiline="false" value="">
+                                                                            <div class="Polaris-TextField_1spwi Polaris-TextField--newDesignLanguage_1rik8"><input name="year" id="collectionTitleTextField" required="" placeholder="e.g.2019" class="Polaris-TextField__Input_30ock" aria-labelledby="collectionTitleTextFieldLabel" aria-invalid="false" aria-multiline="false" value="">
                                                                                 <div class="Polaris-TextField__Backdrop_1x2i2"></div>
                                                                             </div>
                                                                         </div>
@@ -366,10 +366,20 @@
                                                                     </div>
                                                                     <div class="Polaris-Connected_wopc9 Polaris-Connected--newDesignLanguage_1rik8">
                                                                         <div class="Polaris-Connected__Item_yiyol Polaris-Connected__Item--primary_rmh5m">
-                                                                            <div class="Polaris-TextField_1spwi Polaris-TextField--newDesignLanguage_1rik8"><input name="name" id="collectionTitleTextField" placeholder="e.g. NCB - June 2019" class="Polaris-TextField__Input_30ock" aria-labelledby="collectionTitleTextFieldLabel" aria-invalid="false" aria-multiline="false" value="">
+                                                                            <div class="Polaris-TextField_1spwi Polaris-TextField--newDesignLanguage_1rik8"><input name="name" required="" id="collectionTitleTextField" placeholder="e.g. NCB - June 2019" class="Polaris-TextField__Input_30ock" aria-labelledby="collectionTitleTextFieldLabel" aria-invalid="false" aria-multiline="false" value="">
                                                                                 <div class="Polaris-TextField__Backdrop_1x2i2"></div>
                                                                             </div>
                                                                         </div>
+                                                                        
+
+                                                                    </div>
+
+                                                                    <div class="form-group">
+                                                                        @error('report')
+                                                                            <span class="invalid-feedback">
+                                                                                <strong>{{ $message }}</strong>
+                                                                            </span>
+                                                                        @enderror
                                                                     </div>
                                                                 </div>
                                                             </div>

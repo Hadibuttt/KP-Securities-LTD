@@ -69,7 +69,7 @@ class ReportController extends Controller
           $financial_statements->report = $filename;
     
           $financial_statements->save();
-          return redirect('/financial-report');
+          return redirect('/net-capital-report');
         }
           
     }
@@ -109,8 +109,8 @@ class ReportController extends Controller
           $net_capital->year = $req->year;
           $net_capital->name = $req->name;
           $net_capital->report = $filename;
-    
           $net_capital->save();
+
           return redirect('/financial-report');
         }
           
