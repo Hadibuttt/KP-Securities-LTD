@@ -51,7 +51,7 @@
     </div>
     <div class="bs-example">
         <nav class="navbar navbar-expand-xl navbar-light">
-            <a href="#" class="navbar-brand">
+            <a href="/" class="navbar-brand">
                 <img src="{{asset('assets/Asset%201.png')}}" style="margin-top: 20px;margin-left: 60px;">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -76,13 +76,13 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">GOVERNANCE</a>
                         <div class="dropdown-menu">
-                            <a href="aucommit.html" class="dropdown-item">Audit Committee</a>
-                            <a href="Sponsors.html" class="dropdown-item">Sponsors</a>
-                            <a href="ShareholdingPattern.html" class="dropdown-item">Shareholding Pattern</a>
+                            <a href="/audit-committee" class="dropdown-item">Audit Committee</a>
+                            <a href="/sponsors" class="dropdown-item">Sponsors</a>
+                            <a href="{{asset('assets/PATTERN OF SHAREHOLDINGS.docx')}}" class="dropdown-item">Shareholding Pattern</a>
                         </div>
                     </div>
 
-                    <a href="EquityTrading.html" class="nav-item nav-link" style="margin-left: 10px;">SERVICE</a>
+                    <a href="/services" class="nav-item nav-link" style="margin-left: 10px;">SERVICES</a>
 
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">INVESTOR INFORMATION</a>

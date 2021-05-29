@@ -41,6 +41,17 @@ Route::get('/careers', function () {
     return view('careers');
 });
 
+Route::get('/audit-committee', function () {
+    return view('audit-committee');
+});
+
+Route::get('/sponsors', function () {
+    return view('sponsors');
+});
+
+Route::get('/services', function () {
+    return view('services');
+});
 
 Route::get('/financial-report', [App\Http\Controllers\ReportController::class, 'financial_report'] );
 
