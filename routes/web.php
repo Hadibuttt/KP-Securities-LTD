@@ -53,6 +53,56 @@ Route::get('/services', function () {
     return view('services');
 });
 
+Route::get('/auditor-advisor', function () {
+    return view('auditor-advisor');
+});
+
+Route::get('/useful-links', function () {
+    return view('useful-links');
+});
+
+Route::get('/media', function () {
+    return view('media');
+});
+
+Route::get('/research', function () {
+    return view('research');
+});
+
+Route::get('/downloads', function () {
+    return view('downloads');
+});
+
+Route::get('/faqs', function () {
+    return view('faqs');
+});
+
+Route::get('/investor-complaints', function () {
+    return view('investor-complaints');
+});
+
+Route::get('/customer-support', function () {
+    return view('customer-support');
+});
+
+Route::get('/penal-action', function () {
+    return view('penal-action');
+});
+
+Route::get('/feedback', function () {
+    return view('feedback');
+});
+
+Route::get('/contact-us', function () {
+    return view('contact-us');
+});
+
+Route::get('/open-account', function () {
+    return view('open-account');
+});
+
+
+
 Route::get('/financial-report', [App\Http\Controllers\ReportController::class, 'financial_report'] );
 
 Route::get('/financial-statement', [App\Http\Controllers\ReportController::class, 'financial_statement'] );
@@ -60,3 +110,6 @@ Route::get('/financial-statement', [App\Http\Controllers\ReportController::class
 Route::get('/download-financial/{name}', [App\Http\Controllers\ReportController::class, 'financial_fetch'] );
 
 Route::post('/financial-report/uploaded', [App\Http\Controllers\ReportController::class, 'financial_upload'] );
+
+Route::get('/net-capital-balance', [App\Http\Controllers\ReportController::class, 'net_capital_balance'] );
+

@@ -12,13 +12,13 @@ class ReportController extends Controller
 {
     public function financial_report()
     {
-        return view('upload');
+        return view('financial-report');
     }
 
     public function financial_statement()
     {
       $financial_reports = financial_statements::orderBy('id', 'desc')->get();
-      return view('download', compact('financial_reports'));
+      return view('financial-statement', compact('financial_reports'));
     }
 
     public function financial_fetch($name)
@@ -57,9 +57,21 @@ class ReportController extends Controller
           $financial_statements->report = $filename;
     
           $financial_statements->save();
-          return redirect('/');
+          return redirect('/financial-report');
         }
           
     }
 
-}
+    public function net_capital_balance()
+    {
+      //$net_capital_balance = net_capital_balance::orderBy('id', 'desc')->get();
+      return view('net-capital-balance');
+    }
+
+
+
+
+
+
+
+  }

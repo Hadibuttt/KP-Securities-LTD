@@ -43,7 +43,7 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-sm-6">
                     <div id="head-buttons" class="head-buttons">
-                        <a href="addaccount.html" class="btn btn-info">Open An Account</a>
+                        <a href="/open-account" class="btn btn-info">Open An Account</a>
                     </div>
                 </div>
             </div>
@@ -60,9 +60,9 @@
 
             <div class="collapse navbar-collapse justify-content pl-5 ml-2 pt-3" id="navbarCollapse">
                 <div class="navbar-nav" style="margin-left: 5%">
-                    <a href="#" class="nav-item nav-link" id="active" style="margin-left: 10px;">HOME</a>
+                    <a href="" class="nav-item nav-link" id="active" style="margin-left: 10px;">HOME</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" accesskey="">ABOUT US</a>
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" accesskey="">ABOUT US</a>
                         <div class="dropdown-menu">
                             <a href="/company-profile" class="dropdown-item">Company Profile</a>
                             <a href="/vision-mission" class="dropdown-item">Vision & Mission</a>
@@ -74,7 +74,7 @@
                     </div>
 
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">GOVERNANCE</a>
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">GOVERNANCE</a>
                         <div class="dropdown-menu">
                             <a href="/audit-committee" class="dropdown-item">Audit Committee</a>
                             <a href="/sponsors" class="dropdown-item">Sponsors</a>
@@ -85,37 +85,37 @@
                     <a href="/services" class="nav-item nav-link" style="margin-left: 10px;">SERVICES</a>
 
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">INVESTOR INFORMATION</a>
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">INVESTOR INFORMATION</a>
                         <div class="dropdown-menu">
-                            <a href="FinancialStatement.html" class="dropdown-item">Financial Statement</a>
-                            <a href="AuditorLegalAdvisor.html" class="dropdown-item">Auditor / Legal Advisor</a>
-                            <a href="NetCapitalBalance.html" class="dropdown-item">Net Capital Balance</a>
+                            <a href="/financial-statement" class="dropdown-item">Financial Statement</a>
+                            <a href="/auditor-advisor" class="dropdown-item">Auditor / Legal Advisor</a>
+                            <a href="/net-capital-balance" class="dropdown-item">Net Capital Balance</a>
                             <a href="KYCCDDPolicy.html" class="dropdown-item">KYC / CDD Policy</a>
                             
-                            <a href="#" class="dropdown-item dropdown-toggle dropright" data-toggle="dropdown">Investor Education & Miscellaneous</a>
+                            <a href="" class="dropdown-item dropdown-toggle dropright" data-toggle="dropdown">Investor Education & Miscellaneous</a>
                             <div class="dropdown-menu dropright">
-                            <a href="UsefulLinks.html" class="dropdown-item">Useful Links</a>
-                            <a href="Media.html" class="dropdown-item">Media</a>
-                            <a href="Research.html" class="dropdown-item">Research</a>
-                            <a href="Downloads.html" class="dropdown-item">Downloads</a>
-                            <a href="FAQs.html" class="dropdown-item" data-toggle="dropdown">FAQs</a>
+                            <a href="/useful-links" class="dropdown-item">Useful Links</a>
+                            <a href="/media" class="dropdown-item">Media</a>
+                            <a href="/research" class="dropdown-item">Research</a>
+                            <a href="/downloads" class="dropdown-item">Downloads</a>
+                            <a href="/faqs" class="dropdown-item">FAQs</a>
                         
                         </div>
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">INVESTOR PORTAL</a>
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">INVESTOR PORTAL</a>
                         <div class="dropdown-menu">
-                            <a href="PendingInvestorComplaint.html" class="dropdown-item">Pending Investor Complaint(s)</a>
-                            <a href="CustomerSupport.html" class="dropdown-item">Customer Support</a>
-                            <a href="PenalAction.html" class="dropdown-item">Penal Action</a>
-                            <a href="PSXOnlineComplain.html" class="dropdown-item">PSX Online Complain</a>
-                            <a href="SECPOnlineComplain.html" class="dropdown-item">SECP Online Complain</a>
-                            <a href="InvestorGrievances.html" class="dropdown-item">Investor Grievances / Feedback</a>
+                            <a href="/investor-complaints" class="dropdown-item">Pending Investor Complaint(s)</a>
+                            <a href="/customer-support" class="dropdown-item">Customer Support</a>
+                            <a href="/penal-action" class="dropdown-item">Penal Action</a>
+                            <a href="https://csir.psx.com.pk/" class="dropdown-item" target="_blank">PSX Online Complain</a>
+                            <a href="https://www.secp.gov.pk/for-investors/complaints/" target="_blank" class="dropdown-item">SECP Online Complain</a>
+                            <a href="/feedback" class="dropdown-item">Investor Grievances / Feedback</a>
                         </div>
                     </div>
-
-                    <a href="contactus.html" class="nav-item nav-link" style="margin-left: 10px">CONTACT US</a>
+                    <a href="/login" class="nav-item nav-link" target="_blank" style="margin-left: 10px">SIGN IN</a>
+                    <a href="/contact-us" class="nav-item nav-link" style="margin-left: 10px">CONTACT US</a>
                 </div>
             </div>
         </nav>

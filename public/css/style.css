@@ -78,11 +78,13 @@ div.he-text a {
 .nav-link
 {
     color: #104C8D;
-    font-size: 15px;
+    font-size: 14px;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 .dropdown .dropdown-menu a {
-    font-size: 11px;
+    font-size: 13px;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 .head-buttons
 {
