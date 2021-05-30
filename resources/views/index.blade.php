@@ -44,7 +44,7 @@
 
 <div class="container-fluid text-box">
     <h1 class="head-one">WELCOME TO <span style="color: #104C8D;font-size: 30px;">KP SECURITIES PRIVATE LIMITED</span></h1>
-    <p class="para">Our brokerage house provides a complete range of stock broking and corporate advisory services.</p>
+    <p class="para">KP Securities has been the pioneer in the market, exploring uncharted waters and leading the spirit of innovation from the front. KP Securities provide a complete range of stock broking and corporate advisory services.</p>
 </div>
 <br><br>
 

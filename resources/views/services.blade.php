@@ -1,6 +1,14 @@
 @extends('layouts.app')
 @section('content')
 
+<style>
+    .flip-card
+      {
+          display: block;
+          margin: auto;          
+      }
+</style>
+
 <section id="inner-headline">
     <div class="container">
         <div class="row pb-3">
@@ -10,9 +18,9 @@
         </div>
     </div>
 </section>
-<div class="container">
+<div class="container main_design">
     <div class="row">
-        <div class="col-4 pt-5">
+        <div class="col-lg-4 col-sm-12  pt-5">
             <div class="flip-card">
 
                 <div class="flip-card-inner">
@@ -35,7 +43,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-4 pt-5">
+        <div class="col-lg-4 col-sm-12 pt-5">
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front p-4">
@@ -58,7 +66,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-4 pt-5">
+        <div class="col-lg-4 col-sm-12 pt-5">
             <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front p-4">
@@ -99,6 +107,9 @@
             background: #401C6B;
             color: white;
             text-decoration: none;
+            display: block;
+            width: 160px;
+            margin: auto;
         }
         .custom-button span
         {
@@ -118,7 +129,7 @@
                     Trade on the go using your mobile phone. Get convenience of secure and real time access to quotes and trading on your mobile device.
 
                 </p>
-                <div>
+                <div class="pl-5">
                 <a href="https://itunes.apple.com/us/app/zlk-trade-iflair/id1451277006?mt=8" target="_blank">
                     <img src="https://zlk.com.pk/assets/images/Download_on_the_Appstore.png" alt="Lights" style="width:40%;">
                 </a><a href="https://itunes.apple.com/us/app/zlk-trade-iflair/id1451277006?mt=8" target="_blank">
@@ -127,7 +138,7 @@
                 </div>
 
             </div>
-            <div class="col-lg-6 pt-5">
+            <div class="col-lg-6  pt-5   ">
                 <img class="img-responsive below-img" src="https://zlk.com.pk/assets/images/desktop.jpg" alt="Mobile">
                 <h3 class="text-center">DESKTOP</h3>
 
@@ -136,7 +147,6 @@
 
                 </p>
                 <a class="custom-button" href="https://zlk.com.pk/assets/downloads/ZLKTRADE_1.0.0.27.exe"><span data-hover="Download">Download</span></a>
-
 
             </div>
         </div>

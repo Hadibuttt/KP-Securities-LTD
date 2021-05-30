@@ -92,7 +92,7 @@ body.my-login-page {
 			<div class="row justify-content-md-center h-100">
 				<div class="card-wrapper m-auto">
 					
-						<img src="{{asset('assets/Asset%201.png')}}" alt="logo" id="brand-identity" class="mx-auto d-block m-5"><!--Brand Identity-->
+						<a href="/"><img src="{{asset('assets/Asset%201.png')}}" alt="logo" id="brand-identity" class="mx-auto d-block m-5"></a><!--Brand Identity-->
 					<div class="card fat">
 						<div class="card-body">
 							<h4 class="card-title">Sign In</h4>

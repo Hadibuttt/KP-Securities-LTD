@@ -43,7 +43,7 @@
                 </div>
                 <div class="col-md-6 col-sm-6 col-sm-6">
                     <div id="head-buttons" class="head-buttons">
-                        <a href="/open-account" class="btn btn-info">Open An Account</a>
+                        <a href="/open-account" class="btn btn-info">Open Account</a>
                     </div>
                 </div>
             </div>
