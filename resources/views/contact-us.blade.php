@@ -12,24 +12,7 @@
 </section>
 
 <section id="content pt-0">
-    <div class="map">
-        <div id="google-map">
-
-            <div id="googleMap" style="width:100%;height:600px;"></div>
-
-            <script>
-                function myMap() {
-                    var mapProp = {
-                        center: new google.maps.LatLng(51.508742, -0.120850),
-                        zoom: 5,
-                    };
-                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-                }
-            </script>
-
-            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
-        </div>
-    </div>
+    <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=ISE%20Towers%20Islamabad%20Stock%20Exchange%20Towers+(KP%20SECURITIES%20(PVT)%20LIMITED%20)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/draw-radius-circle-map/">Circle area map</a></div>
     <div class="container mt-5 pb-5 contact">
 
         <div class="row mt-5 pb-5">
