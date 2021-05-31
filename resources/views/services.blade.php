@@ -104,7 +104,7 @@
             padding-left: 40px;
             padding-right: 40px;
             font-size: 80px;
-            background: #401C6B;
+            background: #104c8d;
             color: white;
             text-decoration: none;
             display: block;
@@ -119,7 +119,7 @@
 </div>
 <section id="content">
     <div class="container">
-        <h1 class="text-center" style="font-weight: 800; color: #401C6B;">ONLINE TRADING PLATFORM</h1>
+        <h1 class="text-center" style="font-weight: 800; color: #104c8d;">ONLINE TRADING PLATFORM</h1>
         <div class="row">
             <div class="col-lg-6 pt-5">
                 <img class="img-responsive below-img" src="https://zlk.com.pk/assets/images/why_choose_us\online_trading.jpg" alt="Mobile">

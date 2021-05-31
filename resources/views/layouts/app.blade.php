@@ -14,8 +14,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
  <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
-
-
 </head>
 
 <body>
@@ -82,8 +80,9 @@
                     </div>
 
                     <div class="nav-item dropdown">
-                        <a href="/services" class="nav-link dropdown-toggle" data-toggle="dropdown">SERVICES</a>
+                        <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">SERVICES</a>
                         <div class="dropdown-menu">
+                            <a href="/services" class="dropdown-item">Services</a>
                             <a href="/online-account-opening" class="dropdown-item">Online Account Opening</a>
                         </div>
                     </div>

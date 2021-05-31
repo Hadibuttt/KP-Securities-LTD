@@ -7,7 +7,7 @@
             <div class="tcontainer">
                 <div class="ticker-wrap">
                     <div class="ticker-move">
-                        <span id="company"><span style="color: #104c8d;font-size: 18px;margin-left: 7px; font-family: roboto,sans-serif;">KP SECURITIES PRIVATE LIMITED - TREC Holder of Stock Exchange of Pakistan<bsp></bsp></span></span>
+                        <span id="company"><span class="fade-in-text" style="color: #104c8d;font-size: 18px;margin-left: 7px; font-family: roboto,sans-serif;">KP SECURITIES PRIVATE LIMITED - TREC Holder of Stock Exchange of Pakistan<bsp></bsp></span></span>
                     </div>
                 </div>
             </div>
