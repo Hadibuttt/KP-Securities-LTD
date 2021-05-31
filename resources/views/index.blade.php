@@ -7,7 +7,7 @@
             <div class="tcontainer">
                 <div class="ticker-wrap">
                     <div class="ticker-move">
-                        <span id="company"><span style="font-family: roboto,sans-serif; color: #401C6B; font-size: 18px;">KP SECURITIES</span> <span style="color: #B18968;font-size: 18px;margin-left: 7px;">PRIVATE LIMITED<bsp></bsp></span></span>
+                        <span id="company"><span style="color: #104c8d;font-size: 18px;margin-left: 7px; font-family: roboto,sans-serif;">KP SECURITIES PRIVATE LIMITED - TREC Holder of Stock Exchange of Pakistan<bsp></bsp></span></span>
                     </div>
                 </div>
             </div>
@@ -45,13 +45,6 @@
 <div class="container-fluid text-box">
     <h1 class="head-one">WELCOME TO <span style="color: #104C8D;font-size: 30px;">KP SECURITIES PRIVATE LIMITED</span></h1>
     <p class="para">KP Securities has been the pioneer in the market, exploring uncharted waters and leading the spirit of innovation from the front. KP Securities provide a complete range of stock broking and corporate advisory services.</p>
-</div>
-<br><br>
-
-
-
-<div class="container-fluid" style="background-image: url({{asset('assets/bg-about.png')}});height: 600px;;background-size: cover;background-repeat: no-repeat;background-position: bottom">
-   
 </div>
 
 @endsection

@@ -17,9 +17,9 @@
 
                 <p class="lead">Details of person designated to handle complaint:</p>
 
-                <h3>N/A<br><blockquote>Head of Compliance</blockquote></h3>
+                <h3>Shahid Mehmood Aamir <br><blockquote>Head of Compliance</blockquote></h3>
 
-                <p class="lead">Phone: N/A<br>E-mail: <a href="mailto:hashim@patelsecuritiesltd.com">N/A</a></p>
+                <p class="lead">Phone: 051-8359040-43<br>E-mail: <a href="mailto:shahidmehmood@kpsecurities.pk">shahidmehmood@kpsecurities.pk</a></p>
 
     
             </div>

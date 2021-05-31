@@ -30,12 +30,14 @@ class ReportController extends Controller
 
     public function financial_fetch($name)
     {
-      return Storage::download('financial-reports/'.$name.'/'.$name.'');
+      $path = storage_path('app/financial-reports/'.$name.'/'.$name.'');
+      return response()->file($path);
     }
 
     public function capital_fetch($name)
     {
-      return Storage::download('net-capital-reports/'.$name.'/'.$name.'');
+      $path = storage_path('app/net-capital-reports/'.$name.'/'.$name.'');
+      return response()->file($path);
     }
 
     public function financial_upload(Request $req)

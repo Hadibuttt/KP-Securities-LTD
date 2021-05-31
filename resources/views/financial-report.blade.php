@@ -646,6 +646,7 @@
                                                         <div class="Polaris-Stack_32wu2 Polaris-Stack--alignmentBaseline_aupj5">
                                                             <div class="Polaris-Stack__Item_yiyol Polaris-Stack__Item--fill_vpuzt">
                                                                 <h2 class="Polaris-Heading_1brcv">Upload Report</h2>
+                                                                <h6 style="color: #008060;"><strong>Accepted Files (PDF,DOCX,XLXS)</strong></h6>
                                                             </div>
                                                         </div>
                                                     </header>

@@ -101,6 +101,10 @@ Route::get('/open-account', function () {
     return view('open-account');
 });
 
+Route::get('/online-account-opening', function () {
+    return view('online-account-opening');
+});
+
 Route::get('/net-capital-report', [App\Http\Controllers\ReportController::class, 'net_capital_report'] )->middleware('auth');
 
 Route::get('/financial-report', [App\Http\Controllers\ReportController::class, 'financial_report'] )->middleware('auth');

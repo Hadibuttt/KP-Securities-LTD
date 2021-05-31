@@ -21,10 +21,8 @@
                     <blockquote>Chartered Accountants</blockquote>
                 </h3>
 
-                <p class="lead">House# 982,
-                    <br>Street# 21,
-                    <br>Phase 4,
-                    <br>Bahria Town,
+                <p class="lead">House No. 982, Street No. 21,
+                    <br>Phase 4, Bahria Town,
                     <br>Islamabad
                     <br>
                     <br>Tel: +92 (51) 5737581-2

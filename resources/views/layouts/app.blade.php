@@ -77,12 +77,17 @@
                         <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">GOVERNANCE</a>
                         <div class="dropdown-menu">
                             <a href="/audit-committee" class="dropdown-item">Audit Committee</a>
-                            <a href="/sponsors" class="dropdown-item">Sponsors</a>
-                            <a href="{{asset('assets/PATTERN OF SHAREHOLDINGS.docx')}}" class="dropdown-item">Shareholding Pattern</a>
+                            <a href="{{asset('assets/PATTERN OF SHAREHOLDINGS.pdf')}}" class="dropdown-item" target="pdf-frame">Shareholding Pattern</a>
                         </div>
                     </div>
 
-                    <a href="/services" class="nav-item nav-link" style="margin-left: 10px;">SERVICES</a>
+                    <div class="nav-item dropdown">
+                        <a href="/services" class="nav-link dropdown-toggle" data-toggle="dropdown">SERVICES</a>
+                        <div class="dropdown-menu">
+                            <a href="/online-account-opening" class="dropdown-item">Online Account Opening</a>
+                        </div>
+                    </div>
+
 
                     <div class="nav-item dropdown">
                         <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">INVESTOR INFORMATION</a>
@@ -114,7 +119,6 @@
                             <a href="/feedback" class="dropdown-item">Investor Grievances / Feedback</a>
                         </div>
                     </div>
-                    <a href="/login" class="nav-item nav-link" target="_blank" style="margin-left: 10px">SIGN IN</a>
                     <a href="/contact-us" class="nav-item nav-link" style="margin-left: 10px">CONTACT US</a>
                 </div>
             </div>
@@ -139,7 +143,7 @@
                     </address>
                     <p>
                         <i class="fa fa-1x fa-phone"></i> Phone: (051) 8359040-43 <br>
-                        <i class="fa fa-1x fa-envelope"></i>Email: info@kpsecurities.pk
+                        <i class="fa fa-1x fa-envelope"></i> Email: info@kpsecurities.pk
                     </p>
                 </div>
             </div>
@@ -153,7 +157,7 @@
                         <li><a href="/regulatory-information/">Regulatory Information</a></li>
                         <li><a href="/management-team/">Management Team</a></li>
                         <li><a href="/customer-support/">Customer Support</a></li>
-                        <li><a href="/careers/">Careers</a></li>
+                        <li><a href="/login/">Login</a></li>
                     </ul>
                 </div>
             </div>
