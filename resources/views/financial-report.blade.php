@@ -79,7 +79,7 @@
                                                 <div class="_2LkRk">
                                                     <div>
                                                         <div class="_2J9vU"></div>
-                                                        <div class="_1qkdo"><img src="{{asset('assets/Asset%201.png')}}" style="width: 150px"></div>
+                                                        <div class="_1qkdo"><img src="{{asset('assets/Asset 2.png')}}" style="width: 150px"></div>
                                                         <div class="_1hq81">
                                                             <div class="_2J9vU"></div><button class="_1320u" tabindex="0" type="button">
                                                                 <div class="_3gw9g">
