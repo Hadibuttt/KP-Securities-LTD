@@ -50,7 +50,7 @@
     <div class="bs-example">
         <nav class="navbar navbar-expand-xl navbar-light">
             <a href="/" class="navbar-brand">
-                <img src="{{asset('assets/Asset%201.png')}}" style="margin-top: 20px;margin-left: 60px;">
+                <img src="{{asset('assets/Asset%201.png')}}" style="margin-top: 10px;margin-left: 60px;">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
