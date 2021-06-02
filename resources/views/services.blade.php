@@ -131,9 +131,9 @@
                 </p>
                 <div class="pl-5">
                 <a href="https://itunes.apple.com/us/app/zlk-trade-iflair/id1451277006?mt=8" target="_blank">
-                    <img src="https://zlk.com.pk/assets/images/Download_on_the_Appstore.png" alt="Lights" style="width:40%;">
+                    <img src="{{asset('assets/apple.png')}}" alt="Lights" style="width:33%;">
                 </a><a href="https://itunes.apple.com/us/app/zlk-trade-iflair/id1451277006?mt=8" target="_blank">
-                    <img src="https://zlk.com.pk/assets/images/Download_on_GooglePlay.png" alt="Lights" style="width:40%;">
+                    <img src="{{asset('assets/google.png')}}" alt="Lights" style="width:42%;">
                 </a>
                 </div>
 
