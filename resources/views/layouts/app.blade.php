@@ -94,7 +94,7 @@
                             <a href="/financial-statement" class="dropdown-item">Financial Statement</a>
                             <a href="/auditor-advisor" class="dropdown-item">Auditor / Legal Advisor</a>
                             <a href="/net-capital-balance" class="dropdown-item">Net Capital Balance</a>
-                            <a href="KYCCDDPolicy.html" class="dropdown-item">KYC / CDD Policy</a>
+                            <a href="/policies" class="dropdown-item">Policies</a>
                             
                             <a href="" class="dropdown-item dropdown-toggle dropright" data-toggle="dropdown">Investor Education & Miscellaneous</a>
                             <div class="dropdown-menu dropright">

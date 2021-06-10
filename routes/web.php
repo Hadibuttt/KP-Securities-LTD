@@ -101,6 +101,10 @@ Route::get('/open-account', function () {
     return view('open-account');
 });
 
+Route::get('/policies', function () {
+    return view('policies');
+});
+
 Route::get('/online-account-opening', function () {
     return view('online-account-opening');
 });

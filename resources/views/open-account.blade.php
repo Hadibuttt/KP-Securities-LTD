@@ -20,9 +20,9 @@
 
                 <h3>Account Opening Forms</h3>
 
-                <p class="lead"><a target="_blank" href="{{asset('assets/Customer Relationship Form - Individual.pdf')}}">Customer Relationship Form - Individual</a></p>
+                <p class="lead"><a target="_blank" style="font-size: 18px; font-family: 'Roboto', Arial, sans-serif;" href="{{asset('assets/account-opening/Customer Relationship Form - Individual.pdf')}}">Customer Relationship Form - Individual</a></p>
 
-                <p class="lead"><a target="_blank" href="{{asset('assets/UPDATION-FORM.pdf')}}">Account Updation Form</a></p>
+                <p class="lead"><a target="_blank" style="font-size: 18px; font-family: 'Roboto', Arial, sans-serif;" href="{{asset('assets/account-opening/UPDATION-FORM.pdf')}}">Account Updation Form</a></p> 
     
             </div>
         </div>
