@@ -130,9 +130,9 @@
 
                 </p>
                 <div class="pl-5">
-                <a href="https://itunes.apple.com/us/app/zlk-trade-iflair/id1451277006?mt=8" target="_blank">
+                <a href="https://apps.apple.com/pk/app/kits-mobile-app/id994065489" target="_blank">
                     <img src="{{asset('assets/apple.png')}}" alt="Lights" style="width:33%;">
-                </a><a href="https://itunes.apple.com/us/app/zlk-trade-iflair/id1451277006?mt=8" target="_blank">
+                </a><a href="https://play.google.com/store/apps/details?id=com.kse.tick" target="_blank">
                     <img src="{{asset('assets/google.png')}}" alt="Lights" style="width:42%;">
                 </a>
                 </div>
@@ -146,7 +146,7 @@
                     Trade on the go using your mobile phone. Get convenience of secure and real time access to quotes and trading on your mobile device.
 
                 </p>
-                <a class="custom-button" href="https://zlk.com.pk/assets/downloads/ZLKTRADE_1.0.0.27.exe"><span data-hover="Download">Download</span></a>
+                <a class="custom-button" href="{{asset('assets/KPSLTRADE_1.0.0.27.exe')}}"><span data-hover="Download">Download</span></a>
 
             </div>
         </div>

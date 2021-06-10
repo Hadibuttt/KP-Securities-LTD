@@ -18,14 +18,11 @@
                 <p class="lead">Download the form by clicking on the link below:</p>
                 <br>
 
-                <h3>Account Opening Form</h3>
+                <h3>Account Opening Forms</h3>
 
-                <p class="lead"><a target="_blank" href="/downloads/Customer Relationship Form - Individual.pdf">Individual Account Opening Form</a></p>
+                <p class="lead"><a target="_blank" href="{{asset('assets/Customer Relationship Form - Individual.pdf')}}">Customer Relationship Form - Individual</a></p>
 
-                <p class="lead"><a target="_blank" href="/downloads/KYC Form - Individual.pdf">Individual KYC Form</a></p>
-
-                <p class="lead"><a target="_blank" href="/downloads/List of Required Documents for Account Opening.pdf">Requirement for Account Opening Form</a></p>
-
+                <p class="lead"><a target="_blank" href="{{asset('assets/UPDATION-FORM.pdf')}}">Account Updation Form</a></p>
     
             </div>
         </div>
