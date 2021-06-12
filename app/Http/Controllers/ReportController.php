@@ -24,8 +24,9 @@ class ReportController extends Controller
     
     public function financial_statement()
     {
-      $financial_reports = financial_statements::orderBy('id', 'desc')->get();
-      return view('financial-statement', compact('financial_reports'));
+      // $financial_reports = financial_statements::orderBy('id', 'desc')->get();
+      // return view('financial-statement', compact('financial_reports'));
+      return view('financial-statement');
     }
 
     public function financial_fetch($name)
@@ -78,8 +79,9 @@ class ReportController extends Controller
 
     public function net_capital_balance()
     {
-      $reports = net_capital_balance::orderBy('id', 'desc')->get();
-      return view('net-capital-balance', compact('reports'));
+      // $reports = net_capital_balance::orderBy('id', 'desc')->get();
+      // return view('net-capital-balance', compact('reports'));
+      return view('net-capital-balance');
     }
 
     public function net_capital_upload(Request $req)
