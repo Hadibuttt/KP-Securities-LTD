@@ -77,6 +77,32 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <div class="accordion mt-5" id="accordionExample">
+                    
+                    
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="clearfix mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="true" aria-controls="collapse10"><i class="fa fa-plus-circle" style="font-size:22px;"></i></button>
+                                <span style="font-family: Montserrat;
+                                line-height: 22px;
+                                font-weight: normal;
+                                font-style: normal;
+                                color: #000;
+                                font-size: 16px;">BALANCE SHEET</span>
+                            </h2>
+                        </div>
+                        <div id="collapse10" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body" style="line-height: 1.9;">
+                            <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2020.pdf')}}">Balance Sheet at Jun-2020</a><br>
+                            <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2019.pdf')}}">Balance Sheet at Jun-2019</a><br>
+                            <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2018.pdf')}}">Balance Sheet at Jun-2018</a><br>
+                            <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2017.pdf')}}">Balance Sheet at Jun-2017</a><br>
+                            <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2016.pdf')}}">Balance Sheet at Jun-2016</a><br>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
                     <div class="card">
                         <div class="card-header" id="headingOne">
                             <h2 class="clearfix mb-0">
@@ -86,19 +112,12 @@
                                 font-weight: normal;
                                 font-style: normal;
                                 color: #000;
-                                font-size: 16px;">YEAR 2020-21</span>
+                                font-size: 16px;">YEAR 2019-20</span>
                             </h2>
                         </div>
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body" >
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
+                            <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2020.pdf')}}">Balance Sheet at Jun-2020</a><br>
                             </div>
                         </div>
                     </div>
@@ -112,19 +131,13 @@
                                 font-weight: normal;
                                 font-style: normal;
                                 color: #000;
-                                font-size: 16px;">YEAR 2019-20</span>
+                                font-size: 16px;">YEAR 2018-19</span>
                             </h2>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body" >
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
+                            <div style="line-height: 1.9;" class="card-body" >
+                                <a target="_blank" href="{{asset('assets/financial-statement/KP Sec Half Yearly December-2019.pdf')}}">Halfly-December 2019</a><br>
+                                <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2019.pdf')}}">Balance Sheet at Jun-2019</a><br>
                             </div>
                         </div>
                     </div>
@@ -138,19 +151,13 @@
                                 font-weight: normal;
                                 font-style: normal;
                                 color: #000;
-                                font-size: 16px;">YEAR 2018-19</span>
+                                font-size: 16px;">YEAR 2017-18</span>
                             </h2>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body" >
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
+                            <div class="card-body" style="line-height: 1.9;">
+                                <a target="_blank" href="{{asset('assets/financial-statement/KP Sec Half Yearly December-2018.pdf')}}">Halfly-December 2018</a><br>
+                                <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2018.pdf')}}">Balance Sheet at Jun-2018</a><br>
                             </div>
                         </div>
                     </div>
@@ -164,19 +171,13 @@
                                 font-weight: normal;
                                 font-style: normal;
                                 color: #000;
-                                font-size: 16px;">YEAR 2017-18</span>
+                                font-size: 16px;">YEAR 2016-17</span>
                             </h2>
                         </div>
                         <div id="collapse4" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body" >
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
+                            <div class="card-body" style="line-height: 1.9;">
+                                <a target="_blank" href="{{asset('assets/financial-statement/KP Sec Half Yearly December-2017.pdf')}}">Halfly-December 2017</a><br>
+                                <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2017.pdf')}}">Balance Sheet at Jun-2017</a><br>
                             </div>
                         </div>
                     </div>
@@ -191,19 +192,12 @@
                                 font-weight: normal;
                                 font-style: normal;
                                 color: #000;
-                                font-size: 16px;">YEAR 2016-17</span>
+                                font-size: 16px;">YEAR 2015-16</span>
                             </h2>
                         </div>
                         <div id="collapse5" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                            <div class="card-body" >
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
-                            <a href="#">Link#1</a><br>
+                            <div class="card-body" style="line-height: 1.9;">
+                                <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2017.pdf')}}">Balance Sheet at Jun-2016</a><br>
                             </div>
                         </div>
                     </div>
