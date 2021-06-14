@@ -117,6 +117,7 @@
                         </div>
                         <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div class="card-body" >
+                                <a target="_blank" href="{{asset('assets/financial-statement/KP Sec Half Yearly December-2019.pdf')}}">Halfly-December 2019</a><br>
                             <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2020.pdf')}}">Balance Sheet at Jun-2020</a><br>
                             </div>
                         </div>
@@ -136,7 +137,7 @@
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div style="line-height: 1.9;" class="card-body" >
-                                <a target="_blank" href="{{asset('assets/financial-statement/KP Sec Half Yearly December-2019.pdf')}}">Halfly-December 2019</a><br>
+                                <a target="_blank" href="{{asset('assets/financial-statement/KP Sec Half Yearly December-2018.pdf')}}">Halfly-December 2018</a><br>
                                 <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2019.pdf')}}">Balance Sheet at Jun-2019</a><br>
                             </div>
                         </div>
@@ -156,7 +157,7 @@
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body" style="line-height: 1.9;">
-                                <a target="_blank" href="{{asset('assets/financial-statement/KP Sec Half Yearly December-2018.pdf')}}">Halfly-December 2018</a><br>
+                                <a target="_blank" href="{{asset('assets/financial-statement/KP Sec Half Yearly December-2017.pdf')}}">Halfly-December 2017</a><br>
                                 <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2018.pdf')}}">Balance Sheet at Jun-2018</a><br>
                             </div>
                         </div>
@@ -176,7 +177,6 @@
                         </div>
                         <div id="collapse4" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body" style="line-height: 1.9;">
-                                <a target="_blank" href="{{asset('assets/financial-statement/KP Sec Half Yearly December-2017.pdf')}}">Halfly-December 2017</a><br>
                                 <a target="_blank" href="{{asset('assets/financial-statement/KP Securities Financial Statement 2017.pdf')}}">Balance Sheet at Jun-2017</a><br>
                             </div>
                         </div>
