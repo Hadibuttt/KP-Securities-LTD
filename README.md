@@ -1,2 +1,2 @@
 # KP-Securities-LTD
- Company Portfolio
+ Company Portfolio for the renowned name in Stock Exchange of Pakistan. 
