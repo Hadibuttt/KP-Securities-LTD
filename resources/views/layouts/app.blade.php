@@ -175,8 +175,8 @@
             </div>
             <div class="col-sm-3 col-lg-3">
                 <div class="widget">
-                    <img src="https://patelsecuritiesltd.com/img/psxlogo.jpg">
-                    <img src="https://patelsecuritiesltd.com/img/secplogo.jpg">
+                    <img src="{{asset('assets/psxlogo.jpg')}}">
+                    <img src="{{asset('assets/secplogo.jpg')}}">
                     <!-- <img src="/img/jamapunjilogo.jpg" /> -->
                 </div>
             </div>
