@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
  <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
+ <link rel="icon" href="{{asset('assets/Asset%201.png')}}" type="image/gif" sizes="16x16">
 </head>
 
 <body>
